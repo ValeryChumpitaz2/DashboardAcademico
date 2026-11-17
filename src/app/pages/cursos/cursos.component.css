@@ -1,0 +1,66 @@
+
+.encabezado-pagina h1 {
+  margin: 0 0 8px;
+  color: #25334a;
+  font-size: 26px;
+}
+
+.encabezado-pagina p {
+  color: #8290a3;
+  font-size: 14px;
+}
+
+.cursos-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 25px;
+}
+
+.curso-card {
+  position: relative;
+  padding: 23px;
+  border: 1px solid #e7edf5;
+  border-radius: 13px;
+  background: white;
+}
+
+.curso-icon {
+  width: 43px;
+  height: 43px;
+  display: grid;
+  place-items: center;
+  border-radius: 11px;
+  background: #eaf3ff;
+  color: #2868b2;
+  font-weight: 700;
+}
+
+.estado {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  padding: 6px 10px;
+  border-radius: 20px;
+  background: #e9f8f1;
+  color: #27845e;
+  font-size: 11px;
+}
+
+.curso-card h3 {
+  margin: 22px 0 9px;
+  color: #344258;
+  font-size: 16px;
+}
+
+.curso-card p,
+.curso-card small {
+  color: #8290a3;
+  font-size: 13px;
+}
+
+@media (max-width: 650px) {
+  .cursos-grid {
+    grid-template-columns: 1fr;
+  }
+}

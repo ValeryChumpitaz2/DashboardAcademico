@@ -1,0 +1,31 @@
+
+<div class="encabezado-pagina">
+  <div>
+    <h1>Estudiantes</h1>
+    <p>Consulta los estudiantes registrados en el sistema.</p>
+  </div>
+
+  <span class="total">{{ estudiantes.length }} registros</span>
+</div>
+
+<div class="tabla-contenedor">
+  <table>
+    <thead>
+      <tr>
+        <th>Código</th>
+        <th>Nombre completo</th>
+        <th>Programa de estudios</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      @for (estudiante of estudiantes; track estudiante.id) {
+        <tr>
+          <td>{{ estudiante.id }}</td>
+          <td>{{ estudiante.nombre }}</td>
+          <td>{{ estudiante.carrera }}</td>
+        </tr>
+      }
+    </tbody>
+  </table>
+</div>

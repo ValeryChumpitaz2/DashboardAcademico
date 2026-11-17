@@ -1,0 +1,67 @@
+
+.encabezado-pagina h1 {
+  margin: 0 0 8px;
+  color: #25334a;
+  font-size: 26px;
+}
+
+.encabezado-pagina p {
+  color: #8290a3;
+  font-size: 14px;
+}
+
+.perfil-card {
+  max-width: 520px;
+  margin-top: 25px;
+  padding: 32px;
+  border: 1px solid #e7edf5;
+  border-radius: 14px;
+  background: white;
+  text-align: center;
+}
+
+.perfil-avatar {
+  width: 75px;
+  height: 75px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto 17px;
+  border-radius: 50%;
+  background: #eaf3ff;
+  color: #2868b2;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.perfil-card h2 {
+  margin: 0 0 10px;
+  color: #344258;
+}
+
+.rol {
+  display: inline-block;
+  padding: 7px 13px;
+  border-radius: 20px;
+  background: #eaf3ff;
+  color: #2868b2;
+  font-size: 12px;
+}
+
+.informacion {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #edf0f5;
+  text-align: left;
+}
+
+.informacion label {
+  color: #8793a5;
+  font-size: 12px;
+}
+
+.informacion p {
+  margin: 7px 0 20px;
+  color: #344258;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}

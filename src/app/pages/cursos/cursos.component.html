@@ -1,0 +1,22 @@
+
+<div class="encabezado-pagina">
+  <h1>Cursos</h1>
+  <p>Consulta los cursos disponibles en la plataforma.</p>
+</div>
+
+<div class="cursos-grid">
+
+  @for (curso of cursos; track curso.id) {
+    <article class="curso-card">
+      <div class="curso-icon">AC</div>
+
+      <span class="estado">{{ curso.estado }}</span>
+
+      <h3>{{ curso.nombre }}</h3>
+      <p>Duración: {{ curso.duracion }}</p>
+
+      <small>Código: {{ curso.id }}</small>
+    </article>
+  }
+
+</div>
